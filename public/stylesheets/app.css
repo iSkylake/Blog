@@ -1,0 +1,29 @@
+i.icon {
+    font-size: 2em;
+}
+
+body{
+    margin-top: 80px;
+}
+
+img{
+    width: 500px;
+}
+
+.showImg{
+    width: 700px;
+}
+
+#edit{
+    margin-top: 20px;
+}
+
+#remove{
+    display: inline;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
