@@ -1,12 +1,14 @@
 <% include ./partials/header %>
 
+<!-- Shows a post individually -->
+
 <div class="ui main text container segment">
     <div class="ui huge header"><%= blog.title %></div>
         <div class="item">
             <img class="ui centered rounded image showImg" src="<%= blog.image %>">
         </div>
         <div class="content">
-            <span><%= blog.created.toDateString() %></span>
+            <span><%= blog.created.toDateString() %></span> <!-- Converts the date (created) to a better format, example: Sat May 14 2016 -->
             <hr class="style-two">
         </div>
         <div class="description">

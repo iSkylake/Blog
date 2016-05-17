@@ -1,5 +1,7 @@
 <% include ./partials/header %>
 
+<!-- Edit form, use the PUT route to update the post -->
+
 <div class="ui main text container segment">
     <div class="ui huge header">Edit: <%= blog.title %></div>
     <form class="ui form" action="/blog/<%= blog._id %>?_method=PUT" method="POST">
